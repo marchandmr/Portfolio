@@ -1,0 +1,11 @@
+.jumbotron {
+   
+  margin-bottom: 0 !important;
+    border-radius: .3rem;
+    font-family: 'Lora', serif;
+    background-size: cover;
+    background-position: 0 50%;
+    color: whitesmoke;
+    
+    background-image: url("https://images.unsplash.com/photo-1509114397022-ed747cca3f65?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTR8fGFic3RyYWN0fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")!important;
+}

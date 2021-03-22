@@ -35,7 +35,7 @@ const Footer = () => {
                     </li>
                     <li className="list-inline-item">
 
-                        <BsNewspaper size={30} />
+                        <a href="https://github.com/marchandmr/my-portfolio/blob/main/assets/resume/Resume.pdf"> <BsNewspaper size={30} /> </a>
 
                     </li>
 
