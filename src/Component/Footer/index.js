@@ -5,6 +5,8 @@ import { FiGithub } from 'react-icons/fi';
 import { GrLinkedin } from 'react-icons/gr';
 import { MdEmail } from 'react-icons/md';
 import { BsNewspaper } from 'react-icons/bs'
+
+
 import "./footer.css";
 
 const Footer = () => {
@@ -14,12 +16,12 @@ const Footer = () => {
 
 
 
-            <hr />
+
             <div className="text-center">
                 <ul className="list-unstyled list-inline">
                     <li className="list-inline-item">
 
-                        <a href="https://github.com/marchandmr"><FiGithub size={30} /></a>
+                        <a href="https://github.com/marchandmr"><FiGithub size={25} /></a>
 
                     </li>
                     <li className="list-inline-item">
@@ -30,12 +32,12 @@ const Footer = () => {
                     </li>
                     <li className="list-inline-item">
 
-                        <a href="mailto:marchandmr@icloud.com"><MdEmail size={30} /></a>
+                        <a href="mailto:marchandmr@icloud.com"><MdEmail size={25} /></a>
 
                     </li>
                     <li className="list-inline-item">
 
-                        <a href="https://github.com/marchandmr/my-portfolio/blob/main/assets/resume/Resume.pdf"> <BsNewspaper size={30} /> </a>
+                        <a href="https://github.com/marchandmr/my-portfolio/blob/main/assets/resume/Resume.pdf"> <BsNewspaper size={25} /> </a>
 
                     </li>
 
@@ -48,7 +50,7 @@ const Footer = () => {
                     <p>469-406-3774</p>
                 </MDBContainer>
             </div>
-            <hr />
+
         </MDBFooter>
     );
 }

@@ -1,11 +1,31 @@
+body{
+   
+}
 
-
+p{
+    color: #373833 !important;
+    font-family: 'Roboto Slab', serif !important;
+}
 
 h1
 {
     text-align: center;
+    color: #FA2742 !important;
+    font-family: 'Titillium Web', sans-serif;
 }
 
+h2 
+{
+    font-family: 'Titillium Web', sans-serif;
+}
+h3{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h4{
+    color: #FA2742 !important;
+    font-family: 'Titillium Web', sans-serif !important;
+}
 
 
 .header{
@@ -35,8 +55,6 @@ hr:after {
 
 .contactForm
 {
-    
- 
 text-align: center;
     min-height: 40vh;
 }
@@ -113,4 +131,38 @@ text-align: center;
 .card
 {
     margin: 0 auto;
+}
+
+.mealmaker
+{
+    width: 100% !important;
+   /* max-height: 350px !important; */
+}
+
+.Repo
+{
+    padding-top: 15px !important;
+    padding-bottom:  10px !important;
+   text-align: center !important;
+}
+
+.text-center
+{
+    padding-bottom: 25px !important;
+    padding-top: 10px !important;
+}
+
+.page-footer
+{
+    background-color: #D3D3D3 !important;
+}
+
+.projectHeader{
+    text-align: center;
+    color: #373833 !important;
+}
+
+.projectBorder
+{
+    border: 1px solid #373833;
 }

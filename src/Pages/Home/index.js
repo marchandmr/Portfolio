@@ -3,26 +3,31 @@ import React from 'react';
 import { MDBMedia } from 'mdbreact';
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col"
+import Col from "react-bootstrap/Col";
+import Jumbotron from "../../Component/JumboTron";
+import Navi from "../../Component/NavBar";
 
 const Home = () => {
     return (
-        <Container className="homeContainer">
-            <MDBMedia>
-                <MDBMedia left top className="mr-3" href="#">
-                    <MDBMedia className="img" object src="https://raw.githubusercontent.com/marchandmr/my-portfolio/main/assets/images/me.jpg" alt="Generic placeholder image" />
-                </MDBMedia>
-                <MDBMedia body>
-                    <MDBMedia heading className="header">
-                        About Me
+        <div>
+            <Jumbotron />
+            <Navi />
+            <Container className="homeContainer">
+                <MDBMedia>
+                    <MDBMedia left top className="mr-3" href="#">
+                        <MDBMedia className="img" object src="https://raw.githubusercontent.com/marchandmr/my-portfolio/main/assets/images/me.jpg" alt="Generic placeholder image" />
+                    </MDBMedia>
+                    <MDBMedia body>
+                        <MDBMedia heading className="header">
+                            Web Developer
         </MDBMedia>
-                    <p>Hello, my name is Matthew Marchand, and I am a web developer. After spending years in the medical industry,
-                    I decided it was time to follow my dreams and move over to web development. The transition was not always
-                    easy but so far it has been one of the best decisions I have ever made. I am always available to listen to
-            any inquiries, feel free to reach out to me using my contact page.</p>
+                        <p>
+                            Full stack web developer, with a life-long dedication to learning. Effective at combining creativity and problem solving to develop user-friendly applications. Known among peers for strong wit and attention to detail no matter the complexity of the project. I am always available to listen to
+            any inquiries, feel free to reach out to me using my contact page, or by email.  <a href="mailto:marchandmr@icloud.com">marchandmr@icloud.com</a></p>
+                    </MDBMedia>
                 </MDBMedia>
-            </MDBMedia>
-        </Container>
+            </Container>
+        </div>
     );
 }
 
